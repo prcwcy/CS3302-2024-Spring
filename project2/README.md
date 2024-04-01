@@ -71,7 +71,7 @@ int main()
 
 为了方便批改, 本实验推荐使用Linux内核 (版本`6.2.9`), 该内核代码已经包含在本课程的GitHub仓库中, 无需自行从官网下载. 本任务推荐使用最新版的`Ubuntu 22.04`操作系统 (仅为建议, 你可以根据自己的喜好, 选择其他的发行版), 并安装`git`. 具体实验步骤如下:
 
-1. 下载/克隆 [https://github.com/prcwcy/CS3302-2023-Spring](https://github.com/prcwcy/CS3302-2023-Spring) 中的代码, 切换到`project2`目录, 运行`make init`, 将会生成包含Linux内核代码的目录`linux-版本号`.
+1. 下载/克隆 [https://github.com/prcwcy/CS3302-2024-Spring](https://github.com/prcwcy/CS3302-2024-Spring) 中的代码, 切换到`project2`目录, 运行`make init`, 将会生成包含Linux内核代码的目录`linux-版本号`.
 2. 在上一步生成的目录中, 继续实验, 修改内核代码.
 3. 实验完成后, 运行`make patch`, 生成`submission.patch`文件, 该文件将包含你对内核代码的所有修改.
 4. 在最终提交的作业中, 包含该`submission.patch`文件 (放在源代码文件夹下).
