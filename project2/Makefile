@@ -5,6 +5,8 @@ invalid:
 	@echo Invalid Command
 
 init:
+	which tar
+	which git
 	cat ${LINUX_ARCHIVE}.* | tar -k -xJ
 	cd ${LINUX_VERSION} && git init && git config --local user.name student && git config --local user.email student@student && git add . && git commit -m initial
 	touch init
